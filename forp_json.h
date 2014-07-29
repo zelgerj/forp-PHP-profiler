@@ -22,6 +22,8 @@
 #include "php.h"
 #include "forp_log.h"
 
+#include "php_forp.h"
+
 #ifdef ZTS
 #include "TSRM.h"
 #endif
